@@ -28,5 +28,19 @@ public class Main {
         int numberStudents = LudmilaPavlovna + AnnaSergeevna + EkaterinaAndreevna;
         int studentWillGet = sheetsPaper / numberStudents;
         System.out.println("На каждого ученика рассчитано " +studentWillGet+ " листов бумаги");
+        //task4
+        byte bottlesPerMinute = 16 / 2;
+        byte time20 = 20;
+        short timeday = 24 * 60;
+        short timeday3 = 3 * 24 * 60;
+        int timemonth = 31 * 24 * 60;
+        int quantitytime20 = bottlesPerMinute * time20;
+        int quantitytimeday = bottlesPerMinute * timeday;
+        int quantitytimeday3 = bottlesPerMinute * timeday3;
+        int quantitytimemonth = bottlesPerMinute * timemonth;
+        System.out.println("За 20 минут машина произвела бутылок " +quantitytime20+ " штук");
+        System.out.println("За сутки машина произвела бутылок " +quantitytimeday+ " штук");
+        System.out.println("За 3 дня машина произвела бутылок " +quantitytimeday3+ " штук");
+        System.out.println("За 1 месяц машина произвела бутылок " +quantitytimemonth+ " штук");
     }
 }
