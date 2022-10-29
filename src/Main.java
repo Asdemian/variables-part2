@@ -13,5 +13,12 @@ public class Main {
         System.out.println("Значение переменной katorz с типом long равно " +katorz);
         System.out.println("Значение переменной faif с типом float равно " +faif);
         System.out.println("Значение переменной six с типом double равно " +six);
+        //task2
+        byte a = 67;
+        short b = -159;
+        int c = 569;
+        long d = 987678965549L;
+        float e = 27.12f;
+        double f = 27.12;
     }
 }
