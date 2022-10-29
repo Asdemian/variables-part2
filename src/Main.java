@@ -1,6 +1,17 @@
 public class Main {
     public static void main(String[] args) {
         // task1
-
+        int trez = 30;
+        byte on = 10;
+        short duz = 20;
+        long katorz = 40L;
+        float faif = 50;
+        double six = 60;
+        System.out.println("Значение переменной trez с типом int равно " +trez);
+        System.out.println("Значение переменной on с типом byte равно " +on);
+        System.out.println("Значение переменной duz с типом int равно " +duz);
+        System.out.println("Значение переменной katorz с типом long равно " +katorz);
+        System.out.println("Значение переменной faif с типом float равно " +faif);
+        System.out.println("Значение переменной six с типом double равно " +six);
     }
 }
