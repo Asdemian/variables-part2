@@ -42,5 +42,14 @@ public class Main {
         System.out.println("За сутки машина произвела бутылок " +quantitytimeday+ " штук");
         System.out.println("За 3 дня машина произвела бутылок " +quantitytimeday3+ " штук");
         System.out.println("За 1 месяц машина произвела бутылок " +quantitytimemonth+ " штук");
+        //task5
+        byte needСans = 120;
+        byte cansWhiteOneClass = 2;
+        byte cansBrownOneClass = 4;
+        int numberClassescans = cansWhiteOneClass + cansBrownOneClass;
+        int numberClasses = needСans / numberClassescans;
+        int needWhite = numberClasses * cansWhiteOneClass;
+        int needBrown = numberClasses * cansBrownOneClass;
+        System.out.println("В школе, где " +numberClasses+ " классов, нужно " +needWhite+ " банок белой краски и " +needBrown+ " банок коричневой краски.");
     }
 }
