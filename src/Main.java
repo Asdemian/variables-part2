@@ -20,5 +20,13 @@ public class Main {
         long d = 987678965549L;
         float e = 27.12f;
         double f = 27.12;
+        //task3
+        byte LudmilaPavlovna = 23;
+        byte AnnaSergeevna = 27;
+        byte EkaterinaAndreevna = 30;
+        short sheetsPaper = 480;
+        int numberStudents = LudmilaPavlovna + AnnaSergeevna + EkaterinaAndreevna;
+        int studentWillGet = sheetsPaper / numberStudents;
+        System.out.println("На каждого ученика рассчитано " +studentWillGet+ " листов бумаги");
     }
 }
