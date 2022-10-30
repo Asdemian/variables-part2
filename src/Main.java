@@ -43,13 +43,22 @@ public class Main {
         System.out.println("За 3 дня машина произвела бутылок " +quantitytimeday3+ " штук");
         System.out.println("За 1 месяц машина произвела бутылок " +quantitytimemonth+ " штук");
         //task5
-        byte needСans = 120;
+        byte needCans = 120;
         byte cansWhiteOneClass = 2;
         byte cansBrownOneClass = 4;
         int numberClassescans = cansWhiteOneClass + cansBrownOneClass;
-        int numberClasses = needСans / numberClassescans;
+        int numberClasses = needCans / numberClassescans;
         int needWhite = numberClasses * cansWhiteOneClass;
         int needBrown = numberClasses * cansBrownOneClass;
         System.out.println("В школе, где " +numberClasses+ " классов, нужно " +needWhite+ " банок белой краски и " +needBrown+ " банок коричневой краски.");
+        //task6
+        short bananaWeight = 5 * 8;
+        short milkWeight = 200 / 100 * 105;
+        short iceCreamSundaeWeight = 2 * 100;
+        short rawEggsWeight = 4 * 70;
+        int recipeWeight = bananaWeight + milkWeight + iceCreamSundaeWeight + rawEggsWeight;
+        int gramsPerKilogram = 1000;
+        float recipeWeightKg = recipeWeight / (float) gramsPerKilogram;
+        System.out.println("Вес рецепта " +recipeWeightKg+ " кг.");
     }
 }
