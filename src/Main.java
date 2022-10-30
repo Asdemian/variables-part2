@@ -74,5 +74,21 @@ public class Main {
         System.out.println(weightLossDaysMinimum+ " дней уйдёт на похудение, если спортсмен будет терять каждый день по 250 грамм");
         System.out.println(weightLossDaysMaximum+ " дней уйдёт на похудение, если каждый день будет худеть на 500 грамм.");
         System.out.println(averageLossPerCourse+ " дней может потребоваться в среднем, чтобы добиться результата похудения на " +totalWeightAverage+ " кг.");
+        //task8
+        int salaryMasha = 67760;
+        int salaryDenis = 83690;
+        int salsryChristina = 76230;
+        double increaseMasha = salaryMasha * 0.10;
+        double increaseDenis = salaryDenis * 0.10;
+        double increaseChristina = salsryChristina * 0.10;
+        double increasedSalaryMasha = increaseMasha + salaryMasha;
+        double increasedSalaryDenis = increaseDenis + salaryDenis;
+        double increasedSalaryChristina = increaseChristina + salsryChristina;
+        double increaseAnnualIncomeMasha = increaseMasha * 12;
+        double increasedAnnualIncomeDenis = increaseDenis * 12;
+        double increasedAnnualIncomeChristina = increaseChristina * 12;
+        System.out.println("Маша теперь получает " +increasedSalaryMasha+ " рублей. Годовой доход вырос на " +increaseAnnualIncomeMasha+ " рублей.");
+        System.out.println("Денис теперь получает " +increasedSalaryDenis+ " рублей. Годовой доход вырос на " +increasedAnnualIncomeDenis+ " рублей.");
+        System.out.println("Кристина теперь получает " +increasedSalaryChristina+ " рублей. Годовой доход вырос на " +increasedAnnualIncomeChristina+ " рублей.");
     }
 }
