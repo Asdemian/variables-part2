@@ -60,5 +60,19 @@ public class Main {
         int gramsPerKilogram = 1000;
         float recipeWeightKg = recipeWeight / (float) gramsPerKilogram;
         System.out.println("Вес рецепта " +recipeWeightKg+ " кг.");
+        //task7
+        short weightInGrams = 7 * 1000;
+        short minimumWeightLoss = 250;
+        short maximumWeightLoss = 500;
+        int weightLossDaysMinimum = weightInGrams / minimumWeightLoss;
+        int weightLossDaysMaximum = weightInGrams / maximumWeightLoss;
+        int averageWeightPerDay = (maximumWeightLoss + minimumWeightLoss) / 2;
+        int partOfTheDay = weightInGrams % averageWeightPerDay;
+        int averageLossPerCourse = weightInGrams / averageWeightPerDay;
+        int gramsPerKilogramm = 1000;
+        float totalWeightAverage = (weightInGrams + partOfTheDay) / (float) gramsPerKilogram;
+        System.out.println(weightLossDaysMinimum+ " дней уйдёт на похудение, если спортсмен будет терять каждый день по 250 грамм");
+        System.out.println(weightLossDaysMaximum+ " дней уйдёт на похудение, если каждый день будет худеть на 500 грамм.");
+        System.out.println(averageLossPerCourse+ " дней может потребоваться в среднем, чтобы добиться результата похудения на " +totalWeightAverage+ " кг.");
     }
 }
